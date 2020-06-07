@@ -1,0 +1,14 @@
+{
+  "name": "yolobls",
+  "version": "1.0.0",
+  "description": "test eth bls12-381 precompiles",
+  "scripts": {
+    "test:slow": "truffle test test/bls.test.js",
+    "test": "truffle test test/bls.test.js"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "csvtojson": "^2.0.10",
+    "truffle-assertions": "^0.9.2"
+  }
+}
